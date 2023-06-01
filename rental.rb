@@ -8,8 +8,8 @@ class Rental
     @date = date
     @person = person
     @book = book
-    book.add_rental << self
-    person.add_rental << self
+    book.rentals.push(self)
+    person.rentals.push(self)
   end
 
   def to_s
