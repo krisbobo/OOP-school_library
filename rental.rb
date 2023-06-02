@@ -18,6 +18,3 @@ class Rental
     Person: #{person.name} is Age:#{person.age} years old"
   end
 end
-
-# person.add_rental(self) # Add the rental to the person's rentals
-# book.add_rental(person, self) # Add the rental to the book's rentals
