@@ -1,20 +1,18 @@
 require_relative 'book'
 require_relative 'person'
+require 'date'
 
 class Rental
   attr_accessor :date, :person, :book
+  attr_reader :rentals
 
   def initialize(date, person, book)
     @date = date
+
     @person = person
+    person.rentals.push(self)
+
     @book = book
     book.rentals.push(self)
-    person.rentals.push(self)
-  end
-
-  def to_s
-    "Rental Date :#{date.strftime('%Y-%m-%d %H:%M:%S')},
-    Book Details: #{book.title} written by #{book.author}
-    Person: #{person.name} is Age:#{person.age} years old"
   end
 end
