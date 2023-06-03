@@ -22,7 +22,7 @@
 
 # 📖 School Library <a name="about-project"></a>
 
-**In this project, I started building the school library app. In this initial step, implemented the classes to represent students and teachers.**
+**In this project, I started building the school library app. In the initial step, I implemented the classes to represent students and teachers. I then went on to decorate these classes by ensuring that certain classes don't exceed a certain number of characters and ensuring that some variables begin with a capital letter. From there I created associations between respective classes. To finish the app, I created a basic UI which is a console UI with commands to navigate the app.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,13 +39,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Implementation of class and objects in Ruby**
-- **Implementation of Encapsulation and Inheritance in Ruby**
+- **Console app with navigation**
+- **Creation of a student and teacher alongside books**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
 
 <!-- GETTING STARTED -->
 
@@ -93,8 +90,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Decorate a class**
-- [ ] **Setup associations**
+- [ ] **Refactor code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
